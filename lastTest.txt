@@ -1,0 +1,189 @@
+Initial:
+['African', 'EastAsian', 'MiddleEastern', 'NorthernEuropean', 'SouthAsian', 'SoutheastAsian', 'WesternEuropean']
+[1114, 6926, 555, 647, 3456, 3430, 6040]
+
+TrainSet:
+Total Accuracy
+Accurate: 14270, False: 5684 -> %71.51448331161671
+
+Class Accuracies
+African: Total:1003, Accurate:109, False:4 -> %10.867397806580259
+EastAsian: Total:6234, Accurate:6001, False:3334 -> %96.26243182547321
+MiddleEastern: Total:500, Accurate:3, False:0 -> %0.6
+NorthernEuropean: Total:583, Accurate:56, False:0 -> %9.605488850771868
+SouthAsian: Total:3111, Accurate:2064, False:309 -> %66.34522661523626
+SoutheastAsian: Total:3087, Accurate:841, False:30 -> %27.243278263686427
+WesternEuropean: Total:5436, Accurate:5196, False:2007 -> %95.58498896247241
+
+TestSet:
+Total Accuracy
+Accurate: 1454, False: 760 -> %65.67299006323395
+
+Class Accuracies
+African: Total:111, Accurate:16, False:107 -> %14.414414414414415
+EastAsian: Total:692, Accurate:625, False:393 -> %90.3179190751445
+MiddleEastern: Total:55, Accurate:0, False:0 -> %0.0
+NorthernEuropean: Total:64, Accurate:0, False:0 -> %0.0
+SouthAsian: Total:345, Accurate:214, False:29 -> %62.02898550724638
+SoutheastAsian: Total:343, Accurate:67, False:7 -> %19.533527696793
+WesternEuropean: Total:604, Accurate:532, False:224 -> %88.0794701986755
+
+*****
+
+Undersampled Version:
+['African', 'EastAsian', 'MiddleEastern', 'NorthernEuropean', 'SouthAsian', 'SoutheastAsian', 'WesternEuropean']
+[1114, 1644, 555, 647, 1182, 1447, 1202]
+
+TrainSet:
+Total Accuracy
+Accurate: 5401, False: 1614 -> %76.99215965787599
+
+Class Accuracies
+African: Total:1003, Accurate:815, False:238 -> %81.25623130608174
+EastAsian: Total:1480, Accurate:1421, False:416 -> %96.01351351351352
+MiddleEastern: Total:500, Accurate:9, False:1 -> %1.7999999999999998
+NorthernEuropean: Total:583, Accurate:130, False:1 -> %22.29845626072041
+SouthAsian: Total:1064, Accurate:942, False:140 -> %88.53383458646617
+SoutheastAsian: Total:1303, Accurate:1082, False:165 -> %83.03914044512663
+WesternEuropean: Total:1082, Accurate:1002, False:653 -> %92.60628465804066
+
+TestSet:
+Total Accuracy
+Accurate: 474, False: 302 -> %61.08247422680413
+
+Class Accuracies
+African: Total:111, Accurate:88, False:131 -> %79.27927927927928
+EastAsian: Total:164, Accurate:135, False:61 -> %82.3170731707317
+MiddleEastern: Total:55, Accurate:1, False:1 -> %1.8181818181818181
+NorthernEuropean: Total:64, Accurate:5, False:1 -> %7.8125
+SouthAsian: Total:118, Accurate:86, False:12 -> %72.88135593220339
+SoutheastAsian: Total:144, Accurate:84, False:28 -> %58.333333333333336
+WesternEuropean: Total:120, Accurate:75, False:68 -> %62.5
+
+*****
+
++Oversampled Version:
+['African', 'EastAsian', 'MiddleEastern', 'NorthernEuropean', 'SouthAsian', 'SoutheastAsian', 'WesternEuropean']
+[1226, 1644, 944, 1068, 1182, 1447, 1202]
+
+TrainSet:
+Total Accuracy
+Accurate: 6362, False: 1483 -> %81.09623964308477
+
+Class Accuracies
+African: Total:1104, Accurate:961, False:312 -> %87.04710144927536
+EastAsian: Total:1480, Accurate:1405, False:400 -> %94.93243243243244
+MiddleEastern: Total:850, Accurate:461, False:50 -> %54.23529411764706
+NorthernEuropean: Total:962, Accurate:583, False:9 -> %60.6029106029106
+SouthAsian: Total:1064, Accurate:928, False:103 -> %87.21804511278195
+SoutheastAsian: Total:1303, Accurate:1089, False:128 -> %83.57636224098235
+WesternEuropean: Total:1082, Accurate:935, False:481 -> %86.41404805914972
+
+TestSet:
+Total Accuracy
+Accurate: 607, False: 261 -> %69.93087557603687
+
+Class Accuracies
+African: Total:122, Accurate:107, False:116 -> %87.70491803278688
+EastAsian: Total:164, Accurate:129, False:46 -> %78.65853658536585
+MiddleEastern: Total:94, Accurate:51, False:6 -> %54.25531914893617
+NorthernEuropean: Total:106, Accurate:63, False:1 -> %59.43396226415094
+SouthAsian: Total:118, Accurate:78, False:11 -> %66.10169491525424
+SoutheastAsian: Total:144, Accurate:99, False:22 -> %68.75
+WesternEuropean: Total:120, Accurate:80, False:59 -> %66.66666666666666
+
+*****
+
++Zero Probability Fix:
+['African', 'EastAsian', 'MiddleEastern', 'NorthernEuropean', 'SouthAsian', 'SoutheastAsian', 'WesternEuropean']
+[1226, 1644, 944, 1068, 1182, 1447, 1202]
+
+TrainSet:
+Total Accuracy
+Accurate: 6361, False: 1484 -> %81.08349267049076
+
+Class Accuracies
+African: Total:1104, Accurate:961, False:312 -> %87.04710144927536
+EastAsian: Total:1480, Accurate:1405, False:401 -> %94.93243243243244
+MiddleEastern: Total:850, Accurate:461, False:50 -> %54.23529411764706
+NorthernEuropean: Total:962, Accurate:583, False:9 -> %60.6029106029106
+SouthAsian: Total:1064, Accurate:928, False:103 -> %87.21804511278195
+SoutheastAsian: Total:1303, Accurate:1089, False:128 -> %83.57636224098235
+WesternEuropean: Total:1082, Accurate:934, False:481 -> %86.32162661737523
+
+TestSet:
+Total Accuracy
+Accurate: 669, False: 199 -> %77.07373271889401
+
+Class Accuracies
+African: Total:122, Accurate:104, False:38 -> %85.24590163934425
+EastAsian: Total:164, Accurate:148, False:49 -> %90.2439024390244
+MiddleEastern: Total:94, Accurate:51, False:8 -> %54.25531914893617
+NorthernEuropean: Total:106, Accurate:63, False:2 -> %59.43396226415094
+SouthAsian: Total:118, Accurate:92, False:16 -> %77.96610169491525
+SoutheastAsian: Total:144, Accurate:114, False:25 -> %79.16666666666666
+WesternEuropean: Total:120, Accurate:97, False:61 -> %80.83333333333333
+
+*****
+
++Cross-Validation:
+['African', 'EastAsian', 'MiddleEastern', 'NorthernEuropean', 'SouthAsian', 'SoutheastAsian', 'WesternEuropean']
+[1226, 1644, 944, 1068, 1182, 1447, 1202]
+
+TrainSet:
+Total Accuracy
+Accurate: 6388, False: 1454 -> %81.46065266460079
+
+Class Accuracies
+African: Total:1103, Accurate:965, False:299 -> %87.43882544861337
+EastAsian: Total:1480, Accurate:1408, False:391 -> %95.14733711814004
+MiddleEastern: Total:850, Accurate:460, False:44 -> %54.201977401129945
+NorthernEuropean: Total:961, Accurate:583, False:9 -> %60.61173533083646
+SouthAsian: Total:1064, Accurate:928, False:98 -> %87.25324309080655
+SoutheastAsian: Total:1302, Accurate:1100, False:130 -> %84.48898103355602
+WesternEuropean: Total:1082, Accurate:944, False:483 -> %87.23423923091144
+
+TestSet:
+Total Accuracy
+Accurate: 704, False: 164 -> %81.10599078341014
+
+Class Accuracies
+African: Total:122, Accurate:108, False:36 -> %88.52459016393442
+EastAsian: Total:164, Accurate:158, False:45 -> %96.34146341463415
+MiddleEastern: Total:94, Accurate:51, False:1 -> %54.25531914893617
+NorthernEuropean: Total:106, Accurate:61, False:0 -> %57.54716981132076
+SouthAsian: Total:118, Accurate:101, False:12 -> %85.59322033898306
+SoutheastAsian: Total:144, Accurate:125, False:16 -> %86.80555555555556
+WesternEuropean: Total:120, Accurate:100, False:54 -> %83.33333333333334
+
+*****
+
++Boosting:
+['African', 'EastAsian', 'MiddleEastern', 'NorthernEuropean', 'SouthAsian', 'SoutheastAsian', 'WesternEuropean']
+[1226, 1644, 944, 1068, 1182, 1447, 1202]
+
+TrainSet:
+Total Accuracy
+Accurate: 6395, False: 1445 -> %81.56540533520713
+
+Class Accuracies
+African: Total:1103, Accurate:966, False:295 -> %87.59724419831223
+EastAsian: Total:1479, Accurate:1407, False:389 -> %95.12216104611149
+MiddleEastern: Total:849, Accurate:464, False:43 -> %54.57425403484738
+NorthernEuropean: Total:961, Accurate:583, False:8 -> %60.64035120917383
+SouthAsian: Total:1064, Accurate:928, False:97 -> %87.26240940790373
+SoutheastAsian: Total:1302, Accurate:1102, False:131 -> %84.6332164951333
+WesternEuropean: Total:1082, Accurate:945, False:482 -> %87.36006992301745
+
+TestSet:
+Total Accuracy
+Accurate: 704, False: 164 -> %81.10599078341014
+
+Class Accuracies
+African: Total:122, Accurate:108, False:36 -> %88.52459016393442
+EastAsian: Total:164, Accurate:158, False:45 -> %96.34146341463415
+MiddleEastern: Total:94, Accurate:51, False:1 -> %54.25531914893617
+NorthernEuropean: Total:106, Accurate:61, False:0 -> %57.54716981132076
+SouthAsian: Total:118, Accurate:101, False:12 -> %85.59322033898306
+SoutheastAsian: Total:144, Accurate:125, False:16 -> %86.80555555555556
+WesternEuropean: Total:120, Accurate:100, False:54 -> %83.33333333333334
